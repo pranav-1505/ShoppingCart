@@ -1,0 +1,128 @@
+#root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+}
+.main_shop h1{
+  font-size: 3vw;
+}
+.listproducts_main h2{
+  font-size: 2vw;
+}
+.cartproducts_main h2{
+  font-size: 2vw;
+}
+.listproducts_main{
+width: 70%;
+background: #666;
+height: max-content;
+}
+.cartproducts_main{
+  width: 30%;
+  background: #3d3c3cf7;
+  height: auto;
+}
+.prolist{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.main_shop{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.list_items{
+  width: 100%;
+  height: max-content;
+  position: relative;
+  display: flex;
+  flex-direction: row;}
+.pro_box{
+  width: 21vw;
+  height: 21vw;
+    border: 1px solid #ccc;
+    padding: 0.2em;
+     margin-bottom: 30px;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+ 
+}
+.pro_img{
+  width: 18vw;
+  height: 14vw;
+  background-size: 100%;
+  object-fit: contain;
+
+}
+.pro_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.pro_title{
+  font-size: 0.7vw;
+}
+.pro_text{
+  font-size: 1vw;
+
+  font-weight: bold;
+}
+.buton_add{
+  width: 20vw;
+  height: auto;
+  background: #fff;
+  color: #333;
+  font-size: 1vw;
+  font-weight: bold;
+}
+.cart_item{
+  width: 20vw;
+  height: auto;
+  margin-top: 12px;
+  background: #fff;
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+.cart_img{
+  width: 7vw;
+  height: 7vw;
+}
+.cart_img img{
+  width: 7vw;
+  height: 7vw;
+  object-fit: contain;
+}
+.cart_title{
+  width: auto;
+  font-size: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 2em;
+}
+.cart_list{
+  border: 1px solid rgb(204, 204, 204);
+  padding: 0.5em;
+  margin-bottom: 1vw;
+  width: 28vw;
+  height: 10vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cart_btn{
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 0.8vw;
+  font-weight:bold;
+}
